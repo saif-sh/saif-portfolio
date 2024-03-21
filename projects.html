@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        /* Import Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+        /* Reset and Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(to right, #333, #666);
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #666;
+        }
+
+        /* Main Content Styles */
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Project Styles */
+        .project {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 40px;
+            align-items: center;
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-details h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .project-details p {
+            margin-bottom: 20px;
+        }
+
+        .project-details ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .project-details li {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Projects</h1>
+    </header>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Featured Project</h2>
+            <div class="project">
+                <img src="project-image.jpg" alt="Caderno Project Image">
+                <div class="project-details">
+                    <h3>Caderno</h3>
+                    <p>Caderno is a mobile application revolutionizing education by providing a comprehensive platform for seamless access to academic resources and fostering collaborative learning.</p>
+                    <ul>
+                        <li>Flutter</li>
+                        <li>Dart</li>
+                        <li>Firebase</li>
+                    </ul>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Other Projects</h2>
+            <div class="project">
+                <img src="project-image.jpg" alt="Binge Project Image">
+                <div class="project-details">
+                    <h3>Binge</h3>
+                    <p>Developed Binge, a sleek video streaming app with Flutter and Dart, featuring an intuitive UI and Firebase integration for efficient data management.</p>
+                    <ul>
+                        <li>Flutter</li>
+                        <li>Dart</li>
+                        <li>Firebase</li>
+                    </ul>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="project-image.jpg" alt="Multiple Websites Project Image">
+                <div class="project-details">
+                    <h3>Multiple Websites</h3>
+                    <p>Created a diverse portfolio of websites, ranging from banking platforms to projects for small businesses, showcasing versatility in web development. Demonstrated exceptional proficiency in understanding and meeting varying client requirements with tailored web solutions.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Saif H. Shaikh</p>
+    </footer>
+</body>
+</html>
